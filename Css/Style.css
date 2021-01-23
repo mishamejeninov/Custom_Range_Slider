@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: #52a7e0;
+}
+
+.box {
+  background: #FFFFFF;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box .slider {
+  height: 40px;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15px;
+}
+
+.box .slider #range {
+  height: 15px;
+  width: 100%;
+  -webkit-appearance: none;
+  outline: none;
+  background: #f2f2f2;
+  border-radius: 25px;
+  overflow: hidden;
+  -webkit-box-shadow: inset 0px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.box .slider #range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background: #6200ee;
+  cursor: pointer;
+  -webkit-box-shadow: -407px 0 0 400px #6200ee;
+          box-shadow: -407px 0 0 400px #6200ee;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.box #value {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #3498db;
+  width: 55px;
+  text-align: center;
+}
+/*# sourceMappingURL=Style.css.map */
